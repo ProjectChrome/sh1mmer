@@ -6,7 +6,7 @@ Shady Hacking 1nstrument Makes Machine Enrollment Retreat
 
 Website, source tree, and write-up for a ChromeOS enrollment jailbreak
 
-# Old Instructions
+# Old Stuff Below
 
 # The Fog....
 Downgrading and unenrollment has been patched by google. If your chromebook has never updated to version 112 before (check in chrome://version), then you can ignore this and follow the normal instructions. If not, unenrollment will not work as normal.
