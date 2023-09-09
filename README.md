@@ -1,6 +1,7 @@
 <div align="center">
     <h1>SH1MMER-MOD</h1>
 </div>
+
 # the new stuff
 
 To build A Modded Shim we need to use the wax.sh (or wax_legacy.sh) with this repo 
