@@ -25,7 +25,7 @@ The prebuilt binaries have been taken off of the official mirror (dl.sh1mmer.me)
 Here's how you do that.
 First, you need to know your chromebook's board. Go to chrome://version on your chromebook and copy the word after "stable-channel". If chrome://version is blocked, you can search up your chromebook's model name on chrome100.dev and see what board it corresponds to. DO NOT DOWNLOAD ANYTHING FROM CHROME100.DEV AND USE IT WITH THE BUILDER, IT WILL NOT WORK.
 
-If your board name is in the list below, great! Download the RAW shim corresponding to your board from [here](https://shim.the-repo.org/).
+If your board name is in the list below, great! Download the RAW shim corresponding to your board from [here](https://dl.osu.bio/).
 
 - brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork
 
@@ -36,7 +36,7 @@ If it's not, good luck. You'll have to try and call up your OEM and demand the f
 IMPORTANT!!!! IF YOU HAVE EITHER THE `coral` OR `hana` BOARDS, DO NOT FOLLOW THESE INSTRUCTIONS, INSTEAD SKIP TO THE "Building a legacy shim" SECTION
 
 Now we can start building. Type out all of these commands in the terminal. You need to be on linux/wsl2 and have the following packages installed: cgpt, git, wget.
-Note that WSL doesn't work for some people, and if you have trouble building it it's recommended to just use a VM or the [web builder](https://sh1mmer.me/builder.html)
+Note that WSL doesn't work for some people, and if you have trouble building it it's recommended to just use a VM or the [web builder]()
 **WEB BUILDER DOES NOT INCLUDE PAYLOADS!! YOU MUST BUILD IT MANUALLY FROM SOURCE FOR PAYLOADS**
 
 ```
