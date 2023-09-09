@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>SH1MMER</h1>
+    <h1>SH1MMER-MOD</h1>
 </div>
 
 Shady Hacking 1nstrument Makes Machine Enrollment Retreat
