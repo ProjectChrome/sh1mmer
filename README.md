@@ -1,12 +1,16 @@
 <div align="center">
     <h1>SH1MMER-MOD</h1>
 </div>
+# the new stuff
+
+To build A Modded Shim we need to use the wax.sh (or wax_legacy.sh) with this repo 
+To build one just run this script
+
+## Old Stuff Below
 
 Shady Hacking 1nstrument Makes Machine Enrollment Retreat
 
 Website, source tree, and write-up for a ChromeOS enrollment jailbreak
-
-# Old Stuff Below
 
 ## The Fog....
 Downgrading and unenrollment has been patched by google. If your chromebook has never updated to version 112 before (check in chrome://version), then you can ignore this and follow the normal instructions. If not, unenrollment will not work as normal.
