@@ -4,7 +4,7 @@
 
 # the new stuff
 
-To build A Modded Shim we need to use the wax.sh (or wax_legacy.sh) with this repo 
+To build A Modded Shim we need to use the wax.sh (or wax_legacy.sh) with this repo <br>
 To build one just run this script
 
 ## Old Stuff Below
