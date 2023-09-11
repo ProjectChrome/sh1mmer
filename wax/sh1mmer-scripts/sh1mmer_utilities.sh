@@ -2,18 +2,13 @@ source /usr/sbin/sh1mmer_gui.sh
 source /usr/sbin/sh1mmer_optionsSelector.sh
 
 deprovision() {
-    echo "You now Need WP Disable or this wont work"
-    vpd -l
-    echo "SUPER IMPORTANT WRITE DOWN YOUR SERIAL NUMBER"
-    echo "Also look on the back of your chromebook you can find it there BUT STILL WRITE IT DOWN"
-    read -p "Press Enter to delete Serial Number"
-    vpd -d serial_number
+    vpd -i RW_VPD -s check_enrollment=0
+    unblock_devmode
+}
 }
 
 reprovision() {
-    echo "Hope you know your serial number LOL"
-    read -p "Please Type your serial numbert> " $serialnum
-    vpd -s serial_number="$serialnum"
+   vpd -i RW_VPD -s check_enrollment=1
 }
 
 usb() {
