@@ -7,6 +7,13 @@
 To build A Modded Shim we need to use the wax.sh (or wax_legacy.sh) with this repo <br>
 To build one just run this script
 
+```bash
+    git clone https://github.com/ProjectChrome/sh1mmer
+    cd sh1mmer/wax
+    wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
+    sudo bash wax.sh /path/to/the/shim/you/downloaded.bin
+```
+
 ## Old Stuff Below
 
 Shady Hacking 1nstrument Makes Machine Enrollment Retreat
