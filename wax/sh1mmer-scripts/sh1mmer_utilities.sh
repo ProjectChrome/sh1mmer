@@ -5,7 +5,6 @@ deprovision() {
     vpd -i RW_VPD -s check_enrollment=0
     unblock_devmode
 }
-}
 
 reprovision() {
    vpd -i RW_VPD -s check_enrollment=1
