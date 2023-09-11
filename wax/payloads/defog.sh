@@ -1,6 +1,6 @@
  #!/bin/bash
 if crossystem wp_sw?1; then
-    echo "WRITE PROTECTION NOT DISABLED!!!! YOU MUST DISABLE WRITE PROTECTION"
+    echo "Disable Write Protection or ;("
     return
 fi
 futility gbb --flash -s --flags=0x8090
