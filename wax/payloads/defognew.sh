@@ -9,4 +9,4 @@ read -p "Press enter to Delete the Serial Number"
 vpd -d serial_number
 echo "Deleted!"
 
-echo "You have Been SN Un-enrolled"
+echo "SN Un-enrolled Complete"
