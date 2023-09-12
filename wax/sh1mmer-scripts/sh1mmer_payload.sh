@@ -13,8 +13,9 @@ mapname() {
 	'/usr/local/payloads/weston.sh') printf 'Launch the weston Desktop Environment. REQUIRES A DEVSHIM' ;;
 	'/usr/local/payloads/movie.sh') printf "Movie" ;;
 	'/usr/local/payloads/mrchromebox.sh') printf "MrChromebox firmware-util.sh" ;;
-	'/usr/local/payloads/caliginosity.sh') printf "Revert all changes made by sh1mmer (reenroll + more)" ;;
-	'/usr/local/payloads/defog.sh') printf "Set GBB flags to allow devmode and unenrollment POST-112. WRITE PROTECTION MUST BE DISABLED" ;;
+	'/usr/local/payloads/caliginosity.sh') printf "Revert all changes made by sh1mmer (reenroll + ASN + more)" ;;
+	'/usr/local/payloads/defog.sh') printf "Set GBB flags to allow devmode and unenrollment POST-112 (WP must be disabled)" ;;
+    '/usr/local/payloads/defognew.sh') printf "Defog With DSN (WP must be disabled)"
 
 	*) printf $1 ;;
 	esac
