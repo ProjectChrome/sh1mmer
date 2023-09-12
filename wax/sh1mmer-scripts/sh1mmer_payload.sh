@@ -10,7 +10,7 @@ mapname() {
 	'/usr/local/payloads/autoupdate.sh') printf 'Fetch updated payloads. REQUIRES WIFI' ;;
 	'/usr/local/payloads/stopupdates.sh') printf 'Update Disabler' ;;
 	'/usr/local/payloads/troll.sh') printf "The Best Payload (troll.sh)" ;;
-	'/usr/local/payloads/weston.sh') printf 'Launch the weston Desktop Environment. REQUIRES A DEVSHIM' ;;
+	'/usr/local/payloads/weston.sh') printf 'Launch the weston Desktop Environment. NEED A DEV SHIM' ;;
 	'/usr/local/payloads/movie.sh') printf "Movie" ;;
 	'/usr/local/payloads/mrchromebox.sh') printf "MrChromebox firmware-util.sh" ;;
 	'/usr/local/payloads/caliginosity.sh') printf "Revert all changes made by sh1mmer (reenroll + ASN + more)" ;;
