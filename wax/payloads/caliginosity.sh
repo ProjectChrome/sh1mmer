@@ -27,6 +27,12 @@ if [ "$input" = "y" ]; then
     cryptohome --action=tpm_take_ownership
     cryptohome --action=set_firmware_management_parameters --flags=0x01
     fix_gbb
+    read -p "DID YOU DELETE YOUR SERIAL NUMBER? [y/n]" SN
+    if [[ $SN == "y" ]]; then
+        echo "YOU MUST TYPE IT EXACTLY THE SAME"
+        read -p "Type your serial number> " mainnumSN
+        vpd -s serial_number="$mainnumSN"
+    fi
     echo "rebooting"
     reboot
     exit
